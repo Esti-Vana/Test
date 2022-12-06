@@ -1,0 +1,163 @@
+body {
+    background-color: #F6F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head {
+    display: grid;
+    grid-template-rows: 35% 65%;
+    margin: 2%;
+}
+#data_sum {
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    
+}
+.title_head {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-radius: 2%;
+    margin-bottom:1%;
+
+}
+.ttl {
+    text-align:left ;
+    margin-left:5%;
+}
+.tag {
+    text-align: center;
+    margin-right: 5%;
+}
+.data_head {
+    background-color: white;
+    text-align: center;
+    border-radius: 2%;
+    font-size: smaller;
+}
+span{
+    font-size:large;
+}
+#order_section {
+    margin:0.7%;
+    display:grid;
+    grid-template-rows:15%85%;
+}
+#order_head {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border-radius: 2%;
+    margin-bottom: 0.3%;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid #625f5f;
+    border-radius:7%;
+}
+#buttons_order {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    margin-top:5%;
+    margin-left: 30%;
+}
+.flex-item {
+   flex-grow:3;
+}
+#order_data{
+    display:grid;
+    grid-template-columns:70% 30%;
+    margin:0%;
+    background-color:white;
+   
+}
+.rule-bar{
+   
+    margin:0%;
+}
+#tables{
+display:grid;
+grid-template-columns:30%70%;
+margin:0.5%;
+}
+ul {
+    list-style-type: none;
+}
+#table_msg_title {
+    font-size: large;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+#table_msg_upd {
+    font-size: small;
+    background-color: #d7d7d7;
+    text-align: center;
+    margin-bottom:0%;
+}
+#table_user {
+    display: grid;
+    grid-template-rows: 10%90%;
+}
+th {
+    color: #1e1c1c;
+    padding: 10px;
+    text-align: left;
+
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+#user_title{    
+    background-color:white;
+    border-radius:3%;
+    margin-bottom:0.5%;
+
+
+}
+.showOverlay {
+    font-size: 16px;
+    position: absolute;
+}
+#user_list_section{
+    display:grid;
+    grid-template-columns:55%45%;
+    padding:1px;
+}
+#list {
+    display: grid;
+    grid-template-rows: calc(100/6),repeat(6);
+    background-color:white;
+}
+.item-list {
+    background-color:#F6F1F1;
+    height:70%;
+    width:80%;
+    margin-left:3%;
+    margin-top:2%;
+}
+#table_list {
+    display: grid;
+    grid-template-rows: 10%90%;
+    margin-left: 10%;
+}
+#all_tables {
+    margin: 2%;
+    display: grid;
+    grid-template-rows: 50%50%;
+}
+#map_table {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50%50%;
+    margin:0%;
+}
+.tag_trans {
+    background-color: #ff6a00;
+    border-radius:5%;
+    text-align:center;
+}
