@@ -21,6 +21,11 @@ Route::get('/dashboard',function(){
      return view('dashboard',['msgs'=>$msgs]);   
 });
 
+Route::get('/messages',function(){
+   $msgs=Messages::AllMsg();
+   return view('messages',['msgs'=>$msgs]);
+});
+
 Route::get('/authenticate',function(){
    //dd($request->all());      
    $username = htmlspecialchars($_GET['username']);
